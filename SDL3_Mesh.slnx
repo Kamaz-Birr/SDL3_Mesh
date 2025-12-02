@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SDL3_Mesh.vcxproj" Id="10917bab-d210-4c4f-8d27-a9f731be2164" />
+</Solution>
