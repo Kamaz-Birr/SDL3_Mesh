@@ -74,10 +74,13 @@ SDL_AppResult SDL_AppIterate(void* appstate) {
 		p2.y += window_height / 2;
 		p3.x += window_width / 2;
 		p3.y += window_height / 2;
-		// Draw the triangle edges
+
+		// Draw the triangle vertices
 		draw_rectangle((int)p1.x, (int)p1.y, 4, 4, 0xFFFFFF00);
 		draw_rectangle((int)p2.x, (int)p2.y, 4, 4, 0xFFFFFF00);
 		draw_rectangle((int)p3.x, (int)p3.y, 4, 4, 0xFFFFFF00);
+		// Draw the triangles
+		draw_triangle(p1, p2, p3, 0xFF00FF00);
 	}
 
 	draw_bg_points(0xFFCCCCCC); // ARGB format
