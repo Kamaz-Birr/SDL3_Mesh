@@ -1,4 +1,5 @@
 #include "setup.h"
+#include "d_array.h"
 
 TriangleRender triangle_renders[N_MESH_FACES];
 

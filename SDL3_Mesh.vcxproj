@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="display.c" />
+    <ClCompile Include="d_array.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="mesh.c" />
     <ClCompile Include="setup.c" />
@@ -142,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="display.h" />
+    <ClInclude Include="d_array.h" />
     <ClInclude Include="mesh.h" />
     <ClInclude Include="setup.h" />
     <ClInclude Include="triangle.h" />
